@@ -1,0 +1,16 @@
+{
+  "name": "attendance-server-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node init && node server.js",
+    "dev": "node init && node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "sqlite3": "^5.1.6",
+    "node-fetch": "^3.3.2"
+  }
+}
